@@ -12,7 +12,7 @@ hi hello how are you
 
 */
 import java.io.*;
-class RandomAccessFile
+class Test
 
 {
     public static void main(String args[])throws IOException
