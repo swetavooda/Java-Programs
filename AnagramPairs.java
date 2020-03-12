@@ -34,8 +34,11 @@ class AnagramPairs
         boolean[] done = new boolean[n];
         for(int i=0;i<arr.length;i++)
         {
+            if(done[i]==true)
+                continue;
             List<String> s_list= new ArrayList<String>();
             s_list.add(arr[i]);
+            done[i]=true;
                 
             for(int j=i+1;j<arr.length;j++)
             {
