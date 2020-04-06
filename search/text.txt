@@ -1,0 +1,2 @@
+hello, this is the answer to the 5th question in java assignment.
+This code will return the content of file if the given word exists.
